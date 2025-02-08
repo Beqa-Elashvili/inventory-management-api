@@ -8,8 +8,10 @@
     "strict": true,                                      /* Enable all strict type-checking options. */
     "skipLibCheck": true,
     "rootDir": "./src",
-    "resolveJsonModule": true,
-    "moduleResolution": "nodenext"                                 /* Skip type checking all .d.ts files. */
+    "moduleResolution": "nodenext" ,                            /* Skip type checking all .d.ts files. */
+    "resolveJsonModule": true, // Allow importing JSON files
+    "declaration": true,     // Generate declaration files (.d.ts)
+    "sourceMap": true        // 
   },
   "include": [
     "src/**/*"

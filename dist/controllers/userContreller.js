@@ -22,3 +22,4 @@ const getUsers = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     }
 });
 exports.getUsers = getUsers;
+//# sourceMappingURL=userContreller.js.map

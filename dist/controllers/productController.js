@@ -49,3 +49,4 @@ const createProduct = (req, res) => __awaiter(void 0, void 0, void 0, function* 
     }
 });
 exports.createProduct = createProduct;
+//# sourceMappingURL=productController.js.map

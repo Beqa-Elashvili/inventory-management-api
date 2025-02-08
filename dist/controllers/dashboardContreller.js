@@ -58,3 +58,4 @@ const getDashboardMetrics = (req, res) => __awaiter(void 0, void 0, void 0, func
     }
 });
 exports.getDashboardMetrics = getDashboardMetrics;
+//# sourceMappingURL=dashboardContreller.js.map

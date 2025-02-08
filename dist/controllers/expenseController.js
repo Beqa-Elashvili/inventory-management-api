@@ -27,3 +27,4 @@ const getExpensesByCategory = (req, res) => __awaiter(void 0, void 0, void 0, fu
     }
 });
 exports.getExpensesByCategory = getExpensesByCategory;
+//# sourceMappingURL=expenseController.js.map
