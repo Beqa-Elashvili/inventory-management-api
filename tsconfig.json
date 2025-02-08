@@ -1,25 +1,14 @@
 {
   "compilerOptions": {
-    /* Projects */
-    "target": "es2016",                                   
-    "module": "nodenext",                                   /* Specify module code generation */
-    "moduleResolution": "nodenext",                          /* Specify module resolution strategy */
-    "outDir": "./dist",                                      /* Directory for compiled files */
-    "rootDir": "./src",                                      /* Root directory of your TypeScript source files */
-    "resolveJsonModule": true,                               /* Allow importing .json files */
-    "esModuleInterop": true,                                 /* Enable interop between CommonJS and ES Modules */
-    "strict": true,                                          /* Enable all strict type-checking options */
-    "forceConsistentCasingInFileNames": true,                /* Ensure correct casing in imports */
-    "skipLibCheck": true,                                    /* Skip type checking for declaration files */
-    "removeComments": true,                                  /* Strip comments in compiled JS files */
-    "sourceMap": true,                                       /* Generate source maps for debugging */
-    "noEmitOnError": true,                                   /* Don't emit files if there are type errors */
-    "declaration": true,                                     /* Generate declaration files (.d.ts) */
-    "declarationMap": true,                                  /* Generate declaration map files */
-    "noEmitHelpers": true,                                   /* Don't emit helper functions */
-    "isolatedModules": true                                  /* Ensure that every file can be safely transpiled */
-  },
-  "include": [
-    "src/**/*"                                               /* Include all TypeScript files under src/ */
-  ]
+    "target": "es2016",     
+    "module": "nodenext",                               
+    "moduleResolution": "nodenext",                     /* Specify how TypeScript looks up a file from a given module specifier. */
+    "resolveJsonModule": true,      
+    "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  }
 }
