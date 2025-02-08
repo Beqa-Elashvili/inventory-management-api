@@ -26,4 +26,8 @@ app.use("/dashboard", dashboardRoutes_1.default);
 app.use("/products", productRoutes_1.default);
 app.use("/users", userRoutes_1.default);
 app.use("/expense", expenseRoutes_1.default);
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+    console.log(`Server running on port ${port}`);
+});
 //# sourceMappingURL=index.js.map
