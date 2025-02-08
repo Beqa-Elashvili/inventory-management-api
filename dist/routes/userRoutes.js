@@ -1,7 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
-const expenseController_1 = require("../controllers/expenseController");
+const userContreller_1 = require("../controllers/userContreller");
 const router = (0, express_1.Router)();
-router.get("/", expenseController_1.getExpensesByCategory);
+router.get("/", userContreller_1.getUsers);
 exports.default = router;
+//# sourceMappingURL=userRoutes.js.map

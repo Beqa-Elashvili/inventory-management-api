@@ -1,7 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
-const userContreller_1 = require("../controllers/userContreller");
+const dashboardContreller_1 = require("../controllers/dashboardContreller");
 const router = (0, express_1.Router)();
-router.get("/", userContreller_1.getUsers);
+router.get("/", dashboardContreller_1.getDashboardMetrics);
 exports.default = router;
+//# sourceMappingURL=dashboardRoutes.js.map
