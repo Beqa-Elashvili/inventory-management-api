@@ -8,9 +8,24 @@ import dashboardRoutes from "./routes/dashboardRoutes";
 import productRoutes from "./routes/productRoutes";
 import userRoutes from "./routes/userRoutes";
 import expenseRoutes from "./routes/expenseRoutes";
+import { PrismaClient } from "@prisma/client";
 
 dotenv.config();
 const app = express();
+
+const prisma = new PrismaClient();
+
+async function checkDatabaseConnection() {
+  try {
+    await prisma.$connect();
+    console.log("Successfully connected to the PostgreSQL database");
+  } catch (error) {
+    console.error("Error connecting to the PostgreSQL database:", error);
+  }
+}
+
+checkDatabaseConnection();
+
 app.use(express.json());
 app.use(helmet());
 app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
